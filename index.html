@@ -6,35 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <script defer src="index.js"></script>
-    <title>RMG</title>
+    <title>RHG</title>
   </head>
   <body>
     <header>
-      <h1>RMG</h1>
+      <h1>Horoscope predictor</h1>
     </header>
 
     <div id="main-content">
       <p>
-        With this tool you can create random messages that you can send to your
-        friends and leave them wondering about your mental health or if you
-        suddenly decided to try magic mushrooms for the first time!
+        A special horoscope generator that predicts the fortune of your
+        astrological sign! Get your prediction now and share it with your
+        friends!
       </p>
 
-      <div id="btn-content">
-        <button id="generator-Btn">Generate random message</button>
-        <button id="delete-Btn">Clear</button>
+      <div id="sign">
+        <label for="signs">Choose your sign:</label>
+
+        <select name="signs" id="signs">
+          <option value="taurus">Taurus</option>
+          <option value="aries">Aries</option>
+          <option value="leo">Leo</option>
+          <option value="gemini">Gemini</option>
+          <option value="virgo">Virgo</option>
+          <option value="libra">Libra</option>
+          <option value="capricorn">Capricorn</option>
+          <option value="scorpio">Scorpio</option>
+          <option value="aquarius">Aquarius</option>
+          <option value="sagittarius">Sagittarius</option>
+          <option value="piscis">Piscis</option>
+        </select>
       </div>
 
-      
-
+      <div id="btn-content">
+        <button id="generator-Btn">Get my horoscope prediction!</button>
+        <button id="delete-Btn">Clear</button>
+      </div>
     </div>
 
     <div id="message-box"></div>
 
-<footer>
-        <p id = "footer-text"> <span style = "text-decoration:underline;"> Designed & Developed by :</span> David Balastegui</p>
+    <footer>
+      <p id="footer-text">
+        <span style="text-decoration: underline">
+          Designed & Developed by :</span
+        >
+        David Balastegui
+      </p>
     </footer>
-
   </body>
 </html>
-

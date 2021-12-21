@@ -38,6 +38,10 @@ footer {
   /* border: solid black; */
 }
 
+#sign{
+  margin-bottom: 1em;
+}
+
 #btn-content {
   margin: 0 auto;
   /* border: solid black; */
