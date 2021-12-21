@@ -53,4 +53,5 @@ footer {
   margin-bottom: 1em;
   border: solid black;
   display: flex;
+  padding: .5em;
 }
