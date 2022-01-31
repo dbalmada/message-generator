@@ -1,0 +1,31 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../../../../Documents/testing"
+	},
+	{
+		"path": "../../../../../../Documents/scratch/javascript"
+	},
+	{
+		"path": "../../../../../../Documents/python"
+	},
+	{
+		"path": "../../../../../../Downloads/{matias_puletti}_dropinassignment_adyen - Solution"
+	},
+	{
+		"path": "../../../../../../Downloads/{david_balastegui}_dropinassignment_adyen"
+	},
+	{
+		"path": "../../../../../../Desktop/adyen-components-js-sample-code-master"
+	},
+	{
+		"path": "../../../../../../Downloads/adyen-components-js-sample-code-master"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "testing"
+  }
+}

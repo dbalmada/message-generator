@@ -26,7 +26,6 @@ createMessage.addEventListener("click", function () {
       " " +
       message.subjects[randomNum];
   }
-
 });
 
 document.getElementById("delete-Btn").addEventListener("click", function () {
