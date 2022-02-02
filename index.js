@@ -2,12 +2,33 @@ let createMessage = document.getElementById("generator-Btn");
 let messageBox = document.getElementById("message-box");
 
 let message = {
-  articles: ["The", "He", "She", "They"],
-  subjectOne: ["kapper", "gardener", "barista", "shopper"],
-  verbs: ["went", "jumped", "laughed", "talked"],
-  connector: ["to", "from", "on", "so"],
-  subjects: ["Leyla", "Sophie", "Max", "Rosa"],
+  subject: ["You", "Someone", "They", "She", "He"],
+  futureVerb: ["will", "are going to", "is going to", "shall", "will be"],
+  verbTwo: ["receive", "anounce", "get", "win", "lose"],
+  subjectTwo: [
+    "a gift",
+    "many blessings",
+    "a kiss",
+    "a lot of money",
+    "nothing",
+  ],
+  connector: ["from", "to", "by", "for", "near"],
+  subjectThree: [
+    "a loved one.",
+    "a family member.",
+    "a friend.",
+    "your closest person.",
+    "a stranger.",
+  ],
 };
+
+function select() {
+  // Getting the value
+  const selSign = document.getElementById("signs");
+  const sign = selSign.options[selSign.selectedIndex].text;
+
+  console.log(sign);
+}
 
 let randomNum = Math.floor(Math.random() * 4);
 
@@ -16,15 +37,17 @@ createMessage.addEventListener("click", function () {
     messageBox.innerText = "";
   } else if (messageBox.innerText == "") {
     messageBox.innerText =
-      message.articles[randomNum] +
+      message.subject[randomNum] +
       " " +
-      message.subjectOne[randomNum] +
+      message.futureVerb[randomNum] +
       " " +
-      message.verbs[randomNum] +
+      message.verbTwo[randomNum] +
+      " " +
+      message.subjectTwo[randomNum] +
       " " +
       message.connector[randomNum] +
       " " +
-      message.subjects[randomNum];
+      message.subjectThree[randomNum];
   }
 });
 
